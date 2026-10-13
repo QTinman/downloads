@@ -3,15 +3,15 @@ Installers for compute.is products - MetaReporter, ANPRReporter, PeopleReporter.
 
 ## Milestone XProtect plugins
 
-| Installer | What it is |
+| Plugin | What it is |
 |---|---|
-| [ANPRMib-Setup-1.0.0.exe](ANPRMib-Setup-1.0.0.exe) | ANPR Monitor: number plates from camera metadata, with images and a shared watchlist |
-| [MetaCounter-Setup-1.0.0.exe](MetaCounter-Setup-1.0.0.exe) | People and vehicle counting from Hanwha WiseAI cameras, with dashboards and email reports |
-| [PCMib-Setup-1.0.0.exe](PCMib-Setup-1.0.0.exe) | People Count Monitor: live in / out / occupancy from ONVIF cameras |
-| [QueueMib-Setup-1.0.0.exe](QueueMib-Setup-1.0.0.exe) | Queue monitoring from Dahua cameras: people waiting, longest wait, queue alarms |
-| [ZoneWatch-Setup-1.0.0.exe](ZoneWatch-Setup-1.0.0.exe) | ZoneWatch: camera zones with a Smart Client wall that shows the cameras with activity |
-| [TPMib-Setup-0.1.0.exe](TPMib-Setup-0.1.0.exe) | Time Profile for Milestone: camera alarms pass only while their own adjustable schedule is armed, so work that overruns does not flood the guards |
+| [ANPRMib 1.1.0](https://github.com/QTinman/downloads/releases/tag/anprmib-v1.1.0) | ANPR Monitor: number plates from camera metadata, with images and a shared watchlist |
+| [MetaCounter 2.1.0](https://github.com/QTinman/downloads/releases/tag/metacounter-v2.1.0) | People and vehicle counting from Hanwha WiseAI cameras, with dashboards and email reports |
+| [PCMib 2.0.0](https://github.com/QTinman/downloads/releases/tag/pcmib-v2.0.0) | People Count Monitor: live in / out / occupancy from ONVIF cameras |
+| [QueueMib 1.0.0](https://github.com/QTinman/downloads/releases/tag/queuemib-v1.0.0) | Queue monitoring from Dahua cameras: people waiting, longest wait, queue alarms |
+| [ZoneWatch 1.0.0](https://github.com/QTinman/downloads/releases/tag/zonewatch-v1.0.0) | ZoneWatch: camera zones with a Smart Client wall that shows the cameras with activity |
+| [TPMib 0.1.0](https://github.com/QTinman/downloads/releases/tag/tpmib-v0.1.0) | Time Profile for Milestone: camera alarms pass only while their own adjustable schedule is armed, so work that overruns does not flood the guards |
 
 Run the installer on the Event Server machine and on every Management Client and Smart Client machine. It stops and restarts the Event Server; settings and licences in `%ProgramData%` are kept.
 
-Licences are requested from support@compute.is.
+A 30-day trial starts from the Licence tab in the Management Client (TPMib needs no licence). Licences are requested from support@compute.is.
