@@ -5,7 +5,7 @@ Installers for compute.is products - MetaReporter, ANPRReporter, PeopleReporter.
 
 | Plugin | What it is | Cameras |
 |---|---|---|
-| [ANPRMib 1.1.0](https://github.com/QTinman/downloads/releases/tag/anprmib-v1.1.0) | ANPR Monitor: number plates from camera metadata, with images and a shared watchlist | ANPR cameras that send the plate text: Hanwha RoadAI, Dahua ITC / ANPR rule |
+| [ANPRMib 1.1.0](https://github.com/QTinman/downloads/releases/tag/anprmib-v1.1.0) | ANPR Monitor: number plates from camera metadata, with images and a shared watchlist | ANPR cameras only: Hanwha LP models (e.g. PNO-A9311RLP), Dahua ITC series |
 | [MetaCounter 2.1.0](https://github.com/QTinman/downloads/releases/tag/metacounter-v2.1.0) | People and vehicle counting from Hanwha WiseAI cameras, with dashboards and email reports | Hanwha with WiseAI Object Counting |
 | [PCMib 2.0.0](https://github.com/QTinman/downloads/releases/tag/pcmib-v2.0.0) | People Count Monitor: live in / out / occupancy from ONVIF cameras | Dahua and Axis People Counting, Hanwha People Counting / WiseAI, ONVIF line crossing |
 | [QueueMib 1.0.0](https://github.com/QTinman/downloads/releases/tag/queuemib-v1.0.0) | Queue monitoring from Dahua and Hanwha cameras: people waiting, longest wait, queue alarms | Dahua Smart Plan Queuing, Hanwha Queue Management |
